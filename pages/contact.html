@@ -5,14 +5,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="icon" type="image/x-icon" href="photo.jpg">
+    <link rel="icon" type="image/x-icon" href="../photo.jpg">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            color: #333333;
+            margin: 25px 40px;
+        }
+
+        #contacts-header {
+            color: #2e7d32;
+            border-bottom: 2px solid #2e7d32;
+            padding-bottom: 6px;
+        }
+
+        .nav-menu {
+            margin-bottom: 20px;
+        }
+
+        .nav-button {
+            display: inline-block;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #2e7d32;
+            padding: 8px 16px;
+            border-radius: 4px;
+        }
+
+        .contact-box {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 6px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+        }
+
+        .contact-entry {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .contact-link {
+            color: #1976d2;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
 </head>
 
 <body>
-    <nav>
-        <a href="../index.html">Main</a>
+    <nav class="nav-menu">
+        <a class="nav-button" href="../index.html">Main</a>
     </nav>
-    <a>Email: maxikkurakin@gmail.com</a><br>
-    <a>Telegram: @Airwave777</a>
+
+    <h2 id="contacts-header">Контактна інформація</h2>
+
+    <div class="contact-box">
+        <p class="contact-entry">Email: <a class="contact-link" >maxikkurakin@gmail.com</a></p>
+        <p class="contact-entry">Telegram: <a class="contact-link" >@Airwave777</a></p>
+    </div>
 </body>
 </html>

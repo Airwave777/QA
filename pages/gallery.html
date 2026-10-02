@@ -5,30 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
-    <link rel="icon" type="image/x-icon" href="photo.jpg">
+    <link rel="icon" type="image/x-icon" href="../photo.jpg">
 </head>
 
-<body>
+<body style="font-family: Arial, sans-serif; background-color: #212529; color: #f8f9fa; margin: 20px 40px;">
     
-    <nav>
-        <a href="../index.html">Main</a>
+    <nav class="nav-menu" style="margin-bottom: 25px;">
+        <a class="nav-link" href="../index.html" style="display: inline-block; text-decoration: none; color: #ffffff; background-color: #495057; padding: 8px 16px; border-radius: 4px;">Main</a>
     </nav>
     
-    <div class="images-container">
-        <div>
-            <img src="../photo/photo1.jpg" alt="Golf4_1">
+    <h2 id="gallery-heading" style="color: #ffc107; border-bottom: 2px solid #ffc107; padding-bottom: 6px;">Галерея Golf IV</h2>
+
+    <div id="cars-gallery" class="images-container" style="display: flex; flex-wrap: wrap; gap: 15px; margin-top: 20px;">
+        <div class="photo-card" style="border: 2px solid #495057; border-radius: 6px; padding: 6px; background-color: #343a40;">
+            <img class="car-photo" src="../photo/photo1.jpg" alt="Golf4_1" style="width: 250px; height: auto; border-radius: 4px; display: block;">
         </div>
-        <div>
-            <img src="../photo/photo2.jpg" alt="Golf4_2">
+        <div class="photo-card" style="border: 2px solid #495057; border-radius: 6px; padding: 6px; background-color: #343a40;">
+            <img class="car-photo" src="../photo/photo2.jpg" alt="Golf4_2" style="width: 250px; height: auto; border-radius: 4px; display: block;">
         </div>
-        <div>
-            <img src="../photo/photo3.jpg" alt="Golf4_3">
+        <div class="photo-card" style="border: 2px solid #495057; border-radius: 6px; padding: 6px; background-color: #343a40;">
+            <img class="car-photo" src="../photo/photo3.jpg" alt="Golf4_3" style="width: 250px; height: auto; border-radius: 4px; display: block;">
         </div>
-        <div>
-            <img src="../photo/photo4.jpg" alt="Golf4_4">
+        <div class="photo-card" style="border: 2px solid #495057; border-radius: 6px; padding: 6px; background-color: #343a40;">
+            <img class="car-photo" src="../photo/photo4.jpg" alt="Golf4_4" style="width: 250px; height: auto; border-radius: 4px; display: block;">
         </div>
-        <div>
-            <img src="../photo/photo5.jpg" alt="Golf4_5">
+        <div class="photo-card" style="border: 2px solid #495057; border-radius: 6px; padding: 6px; background-color: #343a40;">
+            <img class="car-photo" src="../photo/photo5.jpg" alt="Golf4_5" style="width: 250px; height: auto; border-radius: 4px; display: block;">
         </div>
     </div>
 </body>
